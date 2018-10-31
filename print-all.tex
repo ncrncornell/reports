@@ -1,0 +1,61 @@
+% !TeX TXS-program:bibliography = txs:///biber
+% Author: Lars Vilhuber
+% Requires xelatex to run (unicode characters in abstracts)
+
+\documentclass[12pt,letterpaper]{article}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\newcommand{\mytitle}{Bibliography \today}
+
+% Fixes
+%\DeclareUnicodeCharacter{03B5}{$\epsilon$}
+%\DeclareUnicodeCharacter{03F5}{$\epsilon$}
+%\DeclareUnicodeCharacter{00B2}{$^2$}
+%\DeclareUnicodeCharacter{2208}{$\in$}
+%\DeclareUnicodeCharacter{00D7}{$\times$}
+
+\usepackage[style=reading]{biblatex}
+\addbibresource{nsf-1131848.bib}
+
+\usepackage{fullpage}
+%\usepackage{chicago}
+\usepackage[%
+plainpages,%
+colorlinks,%
+urlcolor=blue,%
+filecolor=blue,%
+pdftitle={\mytitle},%
+pdfpagemode=UseOutlines,%
+pdfauthor={Lars Vilhuber},%
+pdfsubject={Bibliography},%
+]{hyperref}
+%\usepackage{natbib}
+%\usepackage{harvard}
+\usepackage{ifpdf}
+\ifpdf
+\usepackage{embedfile}
+\embedfile{\jobname.tex}
+\fi
+
+
+
+\begin{document}
+\section{\mytitle}
+\nocite{*}
+%\bibliography{nsf-1131848}
+%\bibliographystyle{abbrvnat}
+%\bibliographystyle{chicagoa}
+
+\printbibliography
+
+\ifpdf
+\embedfile{nsf-1131848.bib}
+\fi
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
