@@ -15,7 +15,7 @@
 %\DeclareUnicodeCharacter{2208}{$\in$}
 %\DeclareUnicodeCharacter{00D7}{$\times$}
 
-\usepackage[style=reading,sorting=ydnt]{biblatex}
+\usepackage[style=reading]{biblatex}
 \addbibresource{nsf-1131848.bib}
 
 \usepackage{fullpage}
@@ -25,7 +25,6 @@ plainpages,%
 colorlinks,%
 urlcolor=blue,%
 filecolor=blue,%
-linkcolor=blue,%
 pdftitle={\mytitle},%
 pdfpagemode=UseOutlines,%
 pdfauthor={Lars Vilhuber},%
@@ -40,47 +39,15 @@ pdfsubject={Bibliography},%
 \fi
 
 
-\defbibfilter{papers}{
-	type=article or
-	type=inproceedings or
-	type=conference or
-	type=proceedings or
-	type=incollection or 
-	type=inbook
-}
-
-\defbibfilter{crossref}{
-	type=book
-}
-
-
 
 \begin{document}
-\title{\mytitle}
-\maketitle
-\tableofcontents
-
+\section{\mytitle}
 \nocite{*}
 %\bibliography{nsf-1131848}
 %\bibliographystyle{abbrvnat}
 %\bibliographystyle{chicagoa}
 
-\printbibliography[filter=papers,title={Articles},heading=bibnumbered]
-\printbibliography[type=report,title={Preprints, Working papers, and Data},heading=bibnumbered]
-\printbibliography[type=online,title={Online},heading=bibnumbered]
-\printbibliography[nottype=report,%
-nottype=article,%
-nottype=inproceedings,%
-nottype=incollection,%
-nottype=conference,%
-nottype=proceedings,%
-nottype=inbook,%
-nottype=book,%
-nottype=online,
-title={Other publications},heading=bibnumbered]
-
-\printbibliography[filter=crossref,title={Referenced Works},heading=bibnumbered]
-
+\printbibliography
 
 \ifpdf
 \embedfile{nsf-1131848.bib}
