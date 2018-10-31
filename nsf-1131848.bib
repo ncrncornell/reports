@@ -1,34 +1,8 @@
-% This file was created with JabRef 2.8.1.
+% This file was created with JabRef 2.9.2.
 % Encoding: ISO8859_1
 
-@INPROCEEDINGS{LiSK12,
-  author = {Ping Li and Anshumali Shrivastava and Arnd Christian K{\"o}nig},
-  title = {GPU-based minwise hashing: GPU-based minwise hashing},
-  booktitle = {Proceedings of the 21st World Wide Web Conference (WWW 2012) (Companion
-	Volume)},
-  year = {2012},
-  pages = {565-566},
-  bibsource = {DBLP, http://dblp.uni-trier.de},
-  crossref = {DBLP:conf/www/2012c},
-  doi = {10.1145/2187980.2188129},
-  url = {http://doi.acm.org/10.1145/2187980.2188129}
-}
-
-@INPROCEEDINGS{WWW-SunSL12,
-  author = {Xu Sun and Anshumali Shrivastava and Ping Li},
-  title = {Query spelling correction using multi-task learning},
-  booktitle = {Proceedings of the 21st World Wide Web Conference (WWW 2012)(Companion
-	Volume)},
-  year = {2012},
-  pages = {613-614},
-  bibsource = {DBLP, http://dblp.uni-trier.de},
-  crossref = {DBLP:conf/www/2012c},
-  doi = {10.1145/2187980.2188153},
-  url = {http://doi.acm.org/10.1145/2187980.2188153}
-}
-
 @INCOLLECTION{raey,
-  author = {Abowd, JohnM. and Vilhuber, Lars and Block, William},
+  author = {Abowd, John M. and Vilhuber, Lars and Block, William},
   title = {A Proposed Solution to the Archiving and Curation of Confidential
 	Scientific Inputs},
   booktitle = {Privacy in Statistical Databases},
@@ -45,6 +19,59 @@
   url = {http://dx.doi.org/10.1007/978-3-642-33627-0_17}
 }
 
+@ARTICLE{DBLP:journals/ijdc/LagozeBWAV13,
+  author = {Carl Lagoze and William C. Block and Jeremy Williams and John M.
+	Abowd and Lars Vilhuber},
+  title = {Data Management of Confidential Data},
+  journal = {International Journal of Digital Curation},
+  year = {2013},
+  volume = {8},
+  pages = {265-278},
+  number = {1},
+  note = {Presented at 8th International Digital Curation Conference 2013,
+	Amsterdam. URL points to pre-publication copy.},
+  abstract = {Social science researchers increasingly make use of data that is confidential
+	because it contains linkages to the identities of people, corporations,
+	etc. The value of this data lies in the ability to join the identifiable
+	entities with external data such as genome data, geospatial information,
+	and the like. However, the confidentiality of this data is a barrier
+	to its utility and curation, making it difficult to fulfill US federal
+	data management mandates and interfering with basic scholarly practices
+	such as validation and reuse of existing results. We describe the
+	complexity of the relationships among data that span a public and
+	private divide. We then describe our work on the CED2AR prototype,
+	a first step in providing researchers with a tool that spans this
+	divide and makes it possible for them to search, access, and cite
+	that data.},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  doi = {10.2218/ijdc.v8i1.259},
+  owner = {vilhuber},
+  timestamp = {2013.10.09},
+  url = {http://hdl.handle.net/1813/30924}
+}
+
+@INPROCEEDINGS{LagozeEtAl2013,
+  author = {Carl Lagoze and William C. Block and Jeremy Williams and Lars Vilhuber},
+  title = {Encoding Provenance of Social Science Data: Integrating PROV with
+	DDI},
+  booktitle = {5th Annual European DDI User Conference},
+  year = {2013},
+  abstract = {Provenance is a key component of evaluating the integrity and reusability
+	of data for scholarship. While recording and providing access provenance
+	has always been important, it is even more critical in the web environment
+	in which data from distributed sources and of varying integrity can
+	be combined and derived. The PROV model, developed under the auspices
+	of the W3C, is a foundation for semantically-rich, interoperable,
+	and web-compatible provenance metadata. We report on the results
+	of our experimentation with integrating the PROV model into the DDI
+	metadata for a complex, but characteristic, example social science
+	data. We also present some preliminary thinking on how to visualize
+	those graphs in the user interface.},
+  keywords = {Metadata, Provenance, DDI, eSocial Science},
+  owner = {vilhuber},
+  timestamp = {2013.10.09}
+}
+
 @INCOLLECTION{NIPS2012_1436,
   author = {Ping Li and Art Owen and Cun-Hui Zhang},
   title = {One Permutation Hashing},
@@ -54,6 +81,54 @@
 	K.Q. Weinberger},
   pages = {3122--3130},
   url = {http://books.nips.cc/papers/files/nips25/NIPS2012_1436.pdf}
+}
+
+@INPROCEEDINGS{LiSK12,
+  author = {Ping Li and Anshumali Shrivastava and Arnd Christian K{\"o}nig},
+  title = {GPU-based minwise hashing: GPU-based minwise hashing},
+  booktitle = {Proceedings of the 21st World Wide Web Conference (WWW 2012) (Companion
+	Volume)},
+  year = {2012},
+  pages = {565-566},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  doi = {10.1145/2187980.2188129},
+  url = {http://doi.acm.org/10.1145/2187980.2188129}
+}
+
+@INPROCEEDINGS{PingShrivastava2013,
+  author = {Ping Li and Anshumali Shrivastava and K\"onig, Arnd Christian},
+  title = {b-Bit Minwise Hashing in Practice},
+  booktitle = {Internetware'13},
+  year = {2013},
+  month = {October},
+  abstract = {Minwise hashing is a standard technique in the context of search for
+	approximating set similarities. The recent work [26, 32] demonstrated
+	a potential use of b-bit minwise hashing [23, 24] for efficient search
+	and learning on massive, high-dimensional, binary data (which are
+	typical for many applications in Web search and text mining). In
+	this paper, we focus on a number of critical issues which must be
+	addressed before one can apply b-bit minwise hashing to the volumes
+	of data often used industrial applications. Minwise hashing requires
+	an expensive preprocessing step that computes k (e.g., 500) minimal
+	values after applying the corresponding permutations for each data
+	vector. We developed a parallelization scheme using GPUs and observed
+	that the preprocessing time can be reduced by a factor of 20 ~ 80
+	and becomes substantially smaller than the data loading time. Reducing
+	the preprocessing time is highly beneficial in practice, e.g., for
+	duplicate Web page detection (where minwise hashing is a major step
+	in the crawling pipeline) or for increasing the testing speed of
+	online classifiers. Another critical issue is that for very large
+	data sets it becomes impossible to store a (fully) random permutation
+	matrix, due to its
+	
+	space requirements. Our paper is the first study to demonstrate that
+	b-bit minwise hashing implemented using simple hash functions, e.g.,
+	the 2-universal (2U) and 4-universal (4U) hash families, can produce
+	very similar learning results as using fully random permutations.
+	Experiments on datasets of up to 200GB are presented.},
+  owner = {vilhuber},
+  timestamp = {2013.10.07},
+  url = {http://www.nudt.edu.cn/internetware2013/}
 }
 
 @INCOLLECTION{NIPS2012_1456,
@@ -70,7 +145,7 @@
 @INPROCEEDINGS{LiZhang2013a,
   author = {Ping Li and Cun-Hui Zhang},
   title = {Exact Sparse Recovery with L0 Projections},
-  booktitle = {19th ACM SIGKDD Conference on konwledge Discovery and Data Mining},
+  booktitle = {19th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
   year = {2013},
   month = {August},
   owner = {vilhuber},
@@ -118,8 +193,15 @@
   url = {http://dx.doi.org/10.1145/2396761.2396800}
 }
 
-@INPROCEEDINGS{,
-  owner = {vilhuber},
-  timestamp = {2013.09.06}
+@INPROCEEDINGS{WWW-SunSL12,
+  author = {Xu Sun and Anshumali Shrivastava and Ping Li},
+  title = {Query spelling correction using multi-task learning},
+  booktitle = {Proceedings of the 21st World Wide Web Conference (WWW 2012)(Companion
+	Volume)},
+  year = {2012},
+  pages = {613-614},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  doi = {10.1145/2187980.2188153},
+  url = {http://doi.acm.org/10.1145/2187980.2188153}
 }
 
