@@ -1,4 +1,7 @@
-# Annual Reports to NSF by the Cornell NCRN node
+---
+title: Annual Reports to NSF by the Cornell NCRN node
+layout: Page
+---
 
 The NCRN-Cornell node conducts research into [Metadata Standards and Tools](https://www.ncrn.cornell.edu/projects#Metadata_Standards_and_Tools) and their application in the context of confidential data and metadata, [High-Dimensional Computational Statistics](https://www.ncrn.cornell.edu/projects#High-Dimensional_Computational_Statistics_with_Applications) and their applications in various contexts, and on the [Confidentiality and Privacy](https://www.ncrn.cornell.edu/projects#Confidentiality_and_Privacy) of data releases by private and public entities. We also teach about [Understanding Social and Economic Data](https://www.ncrn.cornell.edu/training/#Understanding_Social_and_Economic_Data) to a broad audience through videoconference and in the style of a Massive Open Online Course (MOOC), and we train graduate students and involve undergraduate researchers in our activities. We  publish scientific articles, create online codebooks for a variety of datasets that can be viewed [on a site that runs our own software](https://www.ncrn.cornell.edu/ced2ar-web/).
 
