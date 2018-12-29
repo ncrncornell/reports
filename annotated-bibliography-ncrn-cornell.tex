@@ -15,8 +15,23 @@
 %\DeclareUnicodeCharacter{2208}{$\in$}
 %\DeclareUnicodeCharacter{00D7}{$\times$}
 
-\usepackage[style=reading]{biblatex}
+\usepackage[style=reading,maxbibnames=20,entryhead=full,entrykey=false]{biblatex}
 \addbibresource{nsf-1131848.bib}
+
+% Clear some stuff from the bibliography
+\AtEveryBibitem{%
+	\clearfield{day}%
+	\clearfield{month}%
+	\clearfield{endday}%
+	\clearfield{endmonth}%
+	\clearlist{language}%
+	\clearfield{issn}%
+	\clearfield{eprint}%
+	\iffieldundef{doi}{}{\clearfield{url}}
+}
+
+
+
 
 \usepackage{fullpage}
 %\usepackage{chicago}
