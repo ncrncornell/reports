@@ -23,14 +23,14 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
-        <p class="view">Also see our <strong><a href="https://www.ncrn.cornell.edu/">main website</a></strong> for many additional details.</p> -->
+        <p class="view">Also see our <strong><a href="https://www.ncrn.cornell.edu/">main website</a></strong> for many additional details.</p>
         {% endif %}
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        {% if site.show_downloads %}
+        {% if site.show_sites %}
         <p class="view">Additional links:
         <ul class="downloads">
           <li><a href="https://hdl.handle.net/1813/30503">NCRN eprints at Cornell eCommons</a></li>
