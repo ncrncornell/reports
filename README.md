@@ -12,7 +12,7 @@ These can also be found on the [NCRN Cornell eCommons](https://hdl.handle.net/18
 - [2016](nsf-annual-report-2016-with-cover.pdf)
 - [2017](nsf-annual-report-2017-with-cover.pdf)
 - [2018](nsf-annual-report-2018-with-cover.pdf)
-- [Outcomes report](outcomes-report.html) ([Markdown version](outcomes-report.md))
+- [Outcomes report](outcomes-report.md) 
 
 ## A bibliography
 - [Consolidated and annotated bibliography](nsf-cornell-bibliography.pdf)
