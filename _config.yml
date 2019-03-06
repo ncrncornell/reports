@@ -1,1 +1,8 @@
 theme: jekyll-theme-minimal
+author:
+  name: Lars Vilhuber
+  twitter: larsvil
+twitter_username: larsvil
+github_username: larsvilhuber
+logo: cornell_logo_simple_black.svg
+description: Description and List of Outcomes of the Cornell node of the NSF-Census Research Network
