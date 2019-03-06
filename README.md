@@ -16,3 +16,8 @@ These can also be found on the [NCRN Cornell eCommons](https://hdl.handle.net/18
 
 ## A bibliography
 - [Consolidated and annotated bibliography](nsf-cornell-bibliography.pdf)
+
+## Further Information
+- [NCRN eprints at Cornell eCommons](https://hdl.handle.net/1813/30503)
+- [Archived NCRN presentations at Cornell eCommons](https://hdl.handle.net/1813/43872)
+- [NCRN Coordinating Office](https://www.ncrn.info)
