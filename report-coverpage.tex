@@ -1,0 +1,53 @@
+% !TeX TXS-program:bibliography = txs:///biber
+% !TeX program = xelatex
+% Author: Lars Vilhuber
+% Requires xelatex to run (unicode characters in abstracts)
+
+\documentclass[12pt,letterpaper]{article}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+
+%\def\reportyear{2018}
+\def\mytitle{Cornell Node of the NSF-Census Research Network - Annual Report to NSF for \reportyear}
+\usepackage{fullpage}
+%\usepackage{chicago}
+\usepackage[%
+plainpages,%
+colorlinks,%
+urlcolor=blue,%
+filecolor=blue,%
+linkcolor=blue,%
+pdftitle={\mytitle},%
+pdfpagemode=UseOutlines,%
+pdfauthor={Lars Vilhuber},%
+pdfsubject={Bibliography},%
+]{hyperref}
+%\usepackage{natbib}
+%\usepackage{harvard}
+
+\usepackage{pdfpages}
+\usepackage{xstring}
+
+
+\begin{document}
+\title{\mytitle}
+\author{%
+\IfStrEqCase{\reportyear}{%
+	{2018}{Lars Vilhuber and William Block}
+	{2017}{Lars Vilhuber and William Block}
+	{2016}{Lars Vilhuber and William Block}
+	{2015}{John M. Abowd, William Block, and Lars Vilhuber}
+	{2014}{John M. Abowd, William Block, Ping Li, and Lars Vilhuber}
+	{2013}{John M. Abowd, William Block, Ping Li, and Lars Vilhuber}
+	{2012}{John M. Abowd, William Block, Ping Li, and Lars Vilhuber}
+	}	 
+}
+\maketitle
+
+\includepdf[pages=-]{nsf-annual-report-\reportyear.pdf}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
