@@ -12,3 +12,4 @@
 *.synctex.gz
 *.bcf
 .DS_Store
+assets/.DS_Store
