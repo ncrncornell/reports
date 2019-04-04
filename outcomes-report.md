@@ -1,7 +1,5 @@
 # Outcomes report
 
- (200 - 800 words)
-
  Our project pursued and achieved several complementary goals:
 
  - We aimed to facilitate the **documentation and discoverability of restricted-use data**, by developing a tool, usable by researchers, to create and disseminate such documentation. We created [Comprehensive Extensible Data Documentation and Access
